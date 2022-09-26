@@ -1,5 +1,6 @@
 create database ss2_bai1;
 use  ss2_bai1;
+drop database ss2_bai1;
 create table if not exists PhieuXuat(
 SoPX int primary key,
 NgayXuat date
@@ -37,14 +38,18 @@ create table if not exists NCC(
 MaNCC int primary key,
 TenNCC varchar(50),
 DiaChi varchar(50),
-SDT varchar(50) 
+SDT varchar(50) ,
+foreign key(SDT) references SDT(SDT)
 );
+drop table NCC;
 
 create table if not exists DONDH(
 SoDH int primary key,
 NgayDH date,
-MaNCC_NCC int
+MaNCC_NCC int,
+foreign key(MaNCC_NCC) references NCC(MaNCC)
 );
+drop table DONDH;
 
 create table if not exists ChiTietDonDatHang(
 MaVTU_ChiTietDonDatHang int,
@@ -55,9 +60,7 @@ foreign key(SoDH_ChiTietDonDatHang) references DONDH(SoDH)
 );
 
 CREATE TABLE  SDT(
-SDT varchar(50),
-MaNCC int,
-foreign key(MaNCC) references NCC(MaNCC)
+SDT varchar(50) primary key
 );
 drop table SDT;
 
