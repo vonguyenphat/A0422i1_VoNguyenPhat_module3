@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.div-tong {
+    background-color: #020d18;
+    width: 2000px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .div-content {
+    padding-top: 100px;
+}
+
+.div-header {
+    display: flex;
+    height: 60px;
+    background-color: #020015;
+
+}
+
+.div-header-left {
+    width: 50%;
+
+}
+
+.div-header-right {
+    width: 50%;
+
+}
+
+.div-header-right ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    position: relative;
+    left: 50px;
+}
+
+.div-header-right ul li a {
+    text-decoration: none;
+    color: cornsilk;
+    text-transform: uppercase;
+}
+
+.div-header-right ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.div-header-right ul li:hover::after {
+    width: 100%;
+}
+
+
+.div-content {
+    display: flex;
+    background: url("https://comic.8ternal.com.vn/public/frontend/images/uploads/slider-bg.jpg");
+    /*background-color: #020d18;*/
+}
+
+.div-content-left {
+    width: 16.66667%;
+
+}
+
+.div-content-mid {
+    width: 66.66667%;
+
+}
+
+.div-content-mid-vn {
+    width: 100%;
+}
+
+#vn {
+    padding-left: 390px;
+    color: cornsilk;
+    font-family: Arial;
+}
+
+
+.div-content-mid-truyen-vn-hang1 {
+    display: flex;
+
+}
+
+
+.div-content-mid-truyen-vn-hang1-cot1 {
+    width: 33.33333%;
+    text-align: center;
+
+}
+
+.div-content-mid-truyen-vn-hang1-cot2 {
+    width: 33.33333%;
+    text-align: center;
+}
+
+.div-content-mid-truyen-vn-hang1-cot3 {
+    width: 33.33333%;
+    text-align: center;
+}
+
+.truyen-vn {
+    text-decoration: none;
+    color: white;
+    .font-family: Arial;
+    box-shadow: inset -5px -50px 100px -15px #000000;
+
+}
+.truyen-vn img {
+    transition: 1s;
+}
+.truyen-vn img:hover{
+    opacity: 0.4;
+}
+.truyen-vn:hover{
+    color: yellow;
+
+
+}
+
+
+
+
+
+/*hàng 2*/
+.div-content-mid-truyen-vn-hang2 {
+    display: flex;
+
+}
+
+.div-content-mid-truyen-vn-hang2-cot1 {
+    width: 33.33333%;
+    text-align: center;
+
+}
+
+.div-content-mid-truyen-vn-hang2-cot2 {
+    width: 33.33333%;
+    text-align: center;
+}
+
+
+
+.div-content-mid-truyen-vn-hang2-cot3 {
+    width: 33.33333%;
+    text-align: center;
+}
+
+
+/*end vn*/
+.div-content-mid-anime {
+    width: 100%;
+}
+
+
+
+
+
+#china {
+    text-align: center;
+    color: cornsilk;
+    font-family: Arial;
+}
+.name-china {
+    font-family: 'Dosis', sans-serif;
+    padding-left: 65px;
+    margin: 2px;
+    width: 170px;
+}
+
+.div-content-mid-anime{
+    text-align: center;
+    color: cornsilk;
+    font-family: Arial;
+}
+
+
+#vn1{
+    height: 50px;
+}
+.hien-thi{
+    height: 50px;
+}
+
+.div-content-right {
+    width: 16.66667%;
+
+}
+
+.div-footer {
+    background: url("https://comic.8ternal.com.vn/public/frontend/images/uploads/ft-bg.jpg");
+    display: flex;
+    color: cornsilk;
+   height: 425px;
+}
+.div-footer-40{
+    width: 30%;
+    color: #abb7c4;
+    text-align: left;
+}
+.div-footer-40 p{
+    padding-top: 30px;
+    margin: 0;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.div-footer-40 img{
+    padding-top:65px ;
+    padding-left: 20px;
+}
+.div-footer-60{
+    width: 70%;
+}
+

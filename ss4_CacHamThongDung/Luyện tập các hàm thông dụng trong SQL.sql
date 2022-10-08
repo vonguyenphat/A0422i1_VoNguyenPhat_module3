@@ -71,7 +71,7 @@ SELECT * FROM Mark;
 -- Hiển thị tất cả các thông tin môn học (bảng subject) có credit lớn nhất.
 select*from `Subject` where Credit =(select max(Credit) from `Subject` );
 -- Hiển thị các thông tin môn học có điểm thi lớn nhất.
-select sb.SubName, max (m.Mark)  
+select sb.SubName, max(m.Mark)  
 from  `Subject` sb
 join Mark m on sb.SubId = m.SubId
 group by sb.SubName;

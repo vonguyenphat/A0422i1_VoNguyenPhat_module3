@@ -1,0 +1,22 @@
+
+.div-tren{
+   height: 50px;
+    background: lightpink;
+}
+.div-tren-trai{
+    background: lightgray;
+    width: 50%;
+    float: left;
+}
+.div-tren-phai{
+    background: lightsalmon;
+}
+.div-tren-phai ul li{
+    display: inline-block;
+    margin: 0 10px;
+    list-style:  none;
+}
+.div-tren-phai ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
