@@ -29,6 +29,7 @@ body{
 
 .div-header-right {
     width: 50%;
+    font-family: system-ui;
 
 }
 
@@ -85,7 +86,7 @@ body{
 #vn {
     padding-left: 390px;
     color: cornsilk;
-    font-family: Arial;
+    font-family: system-ui;
 }
 
 
@@ -114,7 +115,7 @@ body{
 .truyen-vn {
     text-decoration: none;
     color: white;
-    .font-family: Arial;
+    .font-family: system-ui;
     box-shadow: inset -5px -50px 100px -15px #000000;
 
 }
@@ -125,7 +126,7 @@ body{
     opacity: 0.4;
 }
 .truyen-vn:hover{
-    color: yellow;
+    color: red;
 
 
 }
@@ -171,7 +172,7 @@ body{
 #china {
     text-align: center;
     color: cornsilk;
-    font-family: Arial;
+    font-family: system-ui;
 }
 .name-china {
     font-family: 'Dosis', sans-serif;
@@ -223,4 +224,5 @@ body{
 .div-footer-60{
     width: 70%;
 }
+
 
