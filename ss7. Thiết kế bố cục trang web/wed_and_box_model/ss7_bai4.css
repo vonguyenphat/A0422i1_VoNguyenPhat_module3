@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div-footer{
+    background: #F5F5F5;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.div-header-logo {
+    background: #F5F5F5;
+    padding: 5px 0 3px 2px;
+
+}
+
+.header-nav {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.header-nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px 10px;
+}
+
+.div-center {
+    display: flex;
+
+}
+
+.div-center-left {
+    width: 41.66667%;
+}
+
+.div-center-right {
+    width: 58.33333%;
+}
+
+.Nobita422 > b {
+    font-size: 15px;
+    margin-top: 0;
+    color: black;
+}
+
+.Nobita422 > b:hover {
+    color: blue;
+}
+.div-center-left{
+    background: #F5F5F5;
+    width: 330px;
+    padding: 15px 5px 15px 15px;
+    margin-bottom: 12px;
+}
+.div-center-left1{
+    margin-bottom: 10px;
+}
