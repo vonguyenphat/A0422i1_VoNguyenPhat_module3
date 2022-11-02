@@ -95,7 +95,7 @@ ul {
     text-align: right;
 }
 
-#avt {
+.avt {
     border-radius: 50%;
 }
 
@@ -212,4 +212,38 @@ a {
 }
 .avt-story-person{
     border-radius: 50%;
+}
+.div-div-duoi-mid-hang1-tong2-hang1{
+    background: #242526;
+}
+.div-div-duoi-mid-hang1-tong2-hang1 > ul {
+    display: flex;
+    padding: 10px 20px 0 20px;
+    margin-bottom: 0;
+}
+.div-div-duoi-mid-hang1-tong2-hang1 > ul > li{
+    padding: 0 4px;
+}
+
+input[id = input-cam-nghi]{
+    border-radius: 22px;
+    padding: 10px 70px;
+    border: none;
+    background-color: #3a3b3c;
+    font-size: 17px;
+}
+.div-div-duoi-mid-hang1-tong2-hang2-cot1{
+    width: 33.33333%;
+}
+.div-div-duoi-mid-hang1-tong2-hang2-cot2{
+    width: 33.33333%;
+}
+.div-div-duoi-mid-hang1-tong2-hang2-cot3{
+    width: 33.33333%;
+}
+.div-div-duoi-mid-hang1-tong2-hang2-cot1 > a > p{
+     float: left;
+ }
+.div-div-duoi-mid-hang1-tong2-hang2-cot1 > a > img{
+    float: left;
 }
